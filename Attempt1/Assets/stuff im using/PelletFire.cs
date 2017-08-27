@@ -14,4 +14,17 @@ public class PelletFire : MonoBehaviour {
 	void Update () {
         transform.position += transform.forward * FlySpeed * Time.deltaTime;
 	}
+
+    void OnCollisionEnter( Collision other)
+    {
+        if (other.gameObject.tag == "Asteroid")
+        {
+            other.gameObject.GetComponent<Asteroid>().Die();
+        }
+
+        if (other.gameObject.tag == "Score")
+        {
+            other.gameObject.GetComponent<Asteroid>().Die();
+        }
+    }
 }

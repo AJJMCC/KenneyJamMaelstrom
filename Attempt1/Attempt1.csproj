@@ -87,11 +87,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Spawner.cs" />
     <Compile Include="Assets\StarNestSkybox\Scripts\CameraScroll.cs" />
     <Compile Include="Assets\StarNestSkybox\Scripts\SkyboxSwitcher.cs" />
+    <Compile Include="Assets\stuff im using\Asteroid.cs" />
     <Compile Include="Assets\stuff im using\PelletFire.cs" />
     <Compile Include="Assets\stuff im using\PlayerController.cs" />
+    <Compile Include="Assets\stuff im using\Spawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Kenney Assets\Space Kit\License.txt" />
